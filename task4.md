@@ -10,10 +10,10 @@ Format It as ext4
 sudo mkfs.ext4 /mnt/virtualdisk.img 
 
 Mount the file as a loop Device 
-sudo mkdir /mnt/mydisk 
+sudo mkdir /mnt/devops_data
 
 Mount the file as a Loop Device 
-sudo mount -o loop /mnt/virtualdisk.img /mnt/mydisk 
+sudo mount -o loop /mnt/virtualdisk.img /mnt/devops_data
 
 To verify  
 df –h or lsblk 
