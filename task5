@@ -1,0 +1,10 @@
+Process Management & Monitoring
+Start a background process (ping google.com > ping_test.log &). 
+
+Use ps, top, and htop to monitor it.
+ps -ef | grep ping - To running process
+top & htop are used to background running processes.
+
+Kill the process and verify it's gone.
+kill -process # will get from ps cmd.
+ps -ef | grep ping - to verify
