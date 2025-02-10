@@ -1,0 +1,6 @@
+User & Group Management 
+To create user – sudo useradd –m devops_user 
+To set password – sudo passwd devops_user  #username 
+To create group – sudo groupadd devops_team 
+To add user to group - sudo gpasswd –a devops_user devops_team
+Restrict SSH login for certain users - sudo vi /etc/ssh/ssh.d - Add a line DenyUsers #user name
